@@ -1,3 +1,5 @@
-test('API health check', async () => {
-    expect(true).toBe(true);
+const { expect, test } = require('@jest/globals');
+
+test('application health check', () => {
+	expect(true).toBe(true);
 });
